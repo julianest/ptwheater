@@ -1,11 +1,16 @@
 import React from "react";
-
+import { Button } from "react-bootstrap";
+import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
+import { logoutAsync } from "../redux/actions/actionRegister";
 const FooterP = () => {
+  const dispatch = useDispatch();
   return (
     <>
 
       <div className="footerP">
         <div className="footer-section-container">
+        <a href="#log" className="optionsNavbar loginHiddenFooter"  onClick={() => dispatch(logoutAsync())}>Logout</a>
           <div className="footer-section">
             <p className="footer-section-p">
               <img alt="Dark Sky Logo" src="https://darksky.net/images/darkskylogo.png" style={{width: "50px"}} /> Dark Sky

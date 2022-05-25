@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 
 const ContentHelp = () => {
 
-
+  const [show, setShow] = useState(true);
+  
   return (
     <>
       <header className="headerHelp">
@@ -10,19 +11,19 @@ const ContentHelp = () => {
         <h2>Help Center</h2>
         <div className="tabs">
           <div
-            className="iphone"
+            className={show?"iphone" : "iphone active-tab" } 
             style={{ boxShadow: "rgba(0, 0, 0, 0.1) 0px -4px 6px inset" }}
-            //agregar el onclick
+            onClick={()=>setShow(!show)}
           >
             iPhone
           </div>
-          <div className="website active-tab">Website</div>
+          <div className={show ? "website active-tab" : "website" } onClick={()=>setShow(!show)}>Website</div>
         </div>
       </header>
 
       <div className="questions-container">
         <div className="answers">
-          <div className="iphone-answers" style={{ display: "none" }}>
+          <div className="iphone-answers" style={{ display: "block" }}>
             <h2>General</h2>
 
             <div className="question 0">
