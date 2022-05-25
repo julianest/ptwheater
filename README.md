@@ -52,8 +52,8 @@ Link to Repository [https://github.com/julianest/ptwheater](https://github.com/j
 
 ## Api´s
 ---
-Link to Api´s
-https://openweathermap.org/api
+Link to API´s .\
+https://openweathermap.org/api .\
 https://api.mapbox.com/geocoding/
 
 
