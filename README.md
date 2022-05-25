@@ -50,6 +50,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Link to Repository [https://github.com/julianest/ptwheater](https://github.com/julianest/ptwheater).  
 
 
+## Api´s
+---
+Link to Api´s
+https://openweathermap.org/api
+https://api.mapbox.com/geocoding/
+
+
+
 ## Backend
 **Firebase** 
 ---
@@ -60,4 +68,4 @@ This section has moved here: [https://block-master-8e74d.web.app/login](https://
 
 ### Kanban
 
-![Workflow](https://res.cloudinary.com/docutv7ug/image/upload/v1653450341/PT-Wheather/KanbanPt-Weather_avnl0n.png "WorkFlow")
+![Workflow](https://res.cloudinary.com/docutv7ug/image/upload/v1653450845/PT-Wheather/KanbanPt-Weather_xqabr7.png "WorkFlow")

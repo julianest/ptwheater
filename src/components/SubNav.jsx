@@ -29,7 +29,7 @@ const SubNav = () => {
     console.log(data.weather)
 
 
-    const API_URL2 = `https://api.openweathermap.org/data/2.5/forecast?q=${searchF}&appid=f8ffc39e35ba46ed63ffe6fe808e1599`;
+    const API_URL2 = `https://api.openweathermap.org/data/2.5/forecast?q=${searchF}&appid=f8ffc39e35ba46ed63ffe6fe808e1599&units=metric`;
     const response2 = await fetch(API_URL2);
     const data2 = await response2.json();
     setCity2(data2)
@@ -243,10 +243,26 @@ const SubNav = () => {
 
 
 {/* ----------WeatherWeekly----------------- */}
-
-<span>Now:{city.name && <span > {Math.round(city.main.temp)}°</span>}</span>
-<br/>
-<span>6am:{city2.cod && <span > {Math.round(city2.list[0].main.temp)}°</span>}</span>
+<div className="contentForecast">
+  <div className="contentForecastItems">
+    <span>Now:{city.name && <span > {Math.round(city.main.temp)}°</span>}</span>
+      
+    <span>6am:{city2.cod && <span > {Math.round(city2.list[0].main.temp)}°</span>}</span>
+      
+    <span>9am:{city2.cod && <span > {Math.round(city2.list[1].main.temp)}°</span>}</span>
+      
+    <span>12am:{city2.cod && <span > {Math.round(city2.list[2].main.temp)}°</span>}</span>
+  </div>
+  <div className="contentForecastItems">
+    <span>3pm:{city2.cod && <span > {Math.round(city2.list[3].main.temp)}°</span>}</span>
+      
+    <span>6pm:{city2.cod && <span > {Math.round(city2.list[4].main.temp)}°</span>}</span>
+      
+    <span>9pm:{city2.cod && <span > {Math.round(city2.list[5].main.temp)}°</span>}</span>
+      
+    <span>12pm:{city2.cod && <span > {Math.round(city2.list[6].main.temp)}°</span>}</span>
+  </div>
+</div>
 
 
 {/* --------------------------------- */}

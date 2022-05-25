@@ -856,6 +856,31 @@ header h2 {
   }
 
 }
+/*----------------------------------*/
 
 
 
+/* --------------------------Register-----------------------------------*/
+.contentForecast{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.contentForecastItems{
+  display: flex;
+  justify-content: space-around;
+  width:50%;
+  
+}
+
+@media (max-width: 667px) {
+  .contentForecastItems{
+    display: flex;
+    width:50%;
+  }
+
+}
+/*----------------------------------*/
