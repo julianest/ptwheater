@@ -7,6 +7,8 @@ import App from "../containers/App";
 import Attribution from "../containers/Attribution";
 import Blog from "../containers/Blog";
 import TermsService from "../containers/TermsService";
+import FooterP from "../components/FooterP";
+import Profile from "../containers/Profile";
 
 const DashboardRoutes = () => {
 	return (
@@ -14,13 +16,15 @@ const DashboardRoutes = () => {
 			<NavbarP />
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/contact" element={<Help />} />
+				<Route path="/help" element={<Help />} />
         <Route path="/app" element={<App />} />
         <Route path="/tos" element={<TermsService />} />
         <Route path="/attribution" element={<Attribution />} />
         <Route path="/blog" element={<Blog />} />
+				<Route path="/profile" element={<Profile />} />
 				<Route path="/*" element={<Navigate to="/" />} />
 			</Routes>
+			<FooterP />
 		</>
 	);
 };

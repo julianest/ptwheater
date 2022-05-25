@@ -4,6 +4,7 @@ import './styles/GeneralStyles.css';
 import AppRoutes from './routes/AppRoutes';
 import { Provider } from 'react-redux';
 import { store } from './redux/store/store';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 
 

@@ -64,7 +64,7 @@ https://api.mapbox.com/geocoding/
 
 ### Deployment
 
-This section has moved here: [https://block-master-8e74d.web.app/login](https://block-master-8e74d.web.app/login)
+This section has moved here: [https://app-ptwheater.web.app](https://app-ptwheater.web.app)
 
 ### Kanban
 

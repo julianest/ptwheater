@@ -1,6 +1,9 @@
 import React from "react";
+// eslint-disable-next-line
 import { Button } from "react-bootstrap";
+
 import { useDispatch } from "react-redux";
+// eslint-disable-next-line
 import { Link } from "react-router-dom";
 import { logoutAsync } from "../redux/actions/actionRegister";
 const FooterP = () => {

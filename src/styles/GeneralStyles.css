@@ -62,7 +62,8 @@ code {
   .optionsNavbar {
     padding: 1.2%;
   }
-  .loginHidden{
+
+  .loginHidden {
     display: none;
   }
 }
@@ -193,8 +194,9 @@ code {
   font-weight: 500;
   margin: 0 4px;
 }
-.detailUnique{
-  display:inline-block; 
+
+.detailUnique {
+  display: inline-block;
   font-weight: 300;
 }
 
@@ -314,13 +316,16 @@ code {
   text-decoration: none;
   color: #fff;
 }
-.loginHiddenFooter{
+
+.loginHiddenFooter {
   display: none;
 }
+
 @media (max-width: 667px) {
-  .loginHiddenFooter{
+  .loginHiddenFooter {
     display: block;
   }
+
   .footer-section {
     display: flex;
     align-items: center;
@@ -798,6 +803,7 @@ header h2 {
   cursor: pointer;
 
 }
+
 /*----------------------------------*/
 .question>a:hover {
   text-decoration: underline;
@@ -810,6 +816,7 @@ header h2 {
   font-weight: 300;
   font-size: 16px;
 }
+
 /*----------------------------------*/
 
 @media (max-width: 667px) {}
@@ -822,15 +829,17 @@ header h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  width:100%;
+  width: 100%;
 }
-.buttons-login{
+
+.buttons-login {
   border-radius: 20px;
   width: 90%;
   margin: 1% 0% 1% 0%;
   background-color: white;
 }
-.iconsInicio{
+
+.iconsInicio {
   width: 35px;
   height: 20px;
 }
@@ -843,25 +852,28 @@ header h2 {
   font-weight: 400;
   height: 40px;
 }
-.containerRegister{
-  background-color: white; 
-  margin-bottom: 10%; 
-  margin-top: 10%; 
+
+.containerRegister {
+  background-color: white;
+  margin-bottom: 10%;
+  margin-top: 10%;
   border: 1px solid gray;
 }
+
 @media (max-width: 667px) {
-  .containerRegister{
+  .containerRegister {
     border: none;
-    margin-bottom: 10%; 
+    margin-bottom: 10%;
   }
 
 }
+
 /*----------------------------------*/
 
 
 
 /* --------------------------Register-----------------------------------*/
-.contentForecast{
+.contentForecast {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -869,18 +881,56 @@ header h2 {
   margin-left: 2%;
   margin-right: 2%;
 }
-.contentForecastItems{
+
+.contentForecastItems {
   display: flex;
   justify-content: space-around;
-  width:50%;
-  
+  width: 50%;
+
 }
 
 @media (max-width: 667px) {
-  .contentForecastItems{
+  .contentForecastItems {
     display: flex;
-    width:50%;
+    width: 50%;
   }
 
 }
+
+/*----------------------------------*/
+
+/* --------------------------Register-----------------------------------*/
+.map-container {
+  height: 400px;
+  position: absolute;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.sidebarMap {
+  display: inline-block;
+  position: relative;
+  top: 40px;
+  left: 5%;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 4px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+@media (max-width: 667px) {
+  .map-container {
+    height: 300px;
+  }
+
+  .sidebarMap {
+    font-size: 12px;
+    top: 25px;
+    padding: 2px;
+  }
+
+}
+
 /*----------------------------------*/
