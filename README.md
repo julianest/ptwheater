@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Explicacion Proyecto:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The *PT-Weather Project* is created as an online view of weather by location and city search.
+Here you can choose and search for your city and find information corresponding to the weather such as wind speed, humidity,
+temperature, visibility, both at the current moment and 5 days later in time lapses, among other functionalities,
+here you can also register and have your own visitor user, you can see the detail and edit or add your user;
+the project has a backend on the google cloud firebase platform and was tested with Jest, Agile methodology is also used.
+using the kanban method as development tools (workflow is attached at the end of the readme).
+
+## This project was created with:
+
+**React**, **Redux** y **Firebase**
+
+## This proyect was Tested with:
+
+**Jest** 
+
+## Frameworks:
+
+
+Only React:
+---
+**React-Router-Dom** 
+
+React (independentes):
+---
+**React-Boostrap**, **React-Redux**
+
+Independentes:
+---
+**Axios**, **Firebase**, **Formik**, **Yup** y **Firebase**
+
+Other Tools:
+---
+**Thunk**, **Cloudinary** y **Sweetalert**
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Repository
+**GitHub**  
+---
 
-### `npm test`
+Link to Repository [https://github.com/julianest/ptwheater](https://github.com/julianest/ptwheater).  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Backend
+**Firebase** 
+---
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: [https://block-master-8e74d.web.app/login](https://block-master-8e74d.web.app/login)
 
-### `npm run build` fails to minify
+### Kanban
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Workflow](https://res.cloudinary.com/docutv7ug/image/upload/v1653450341/PT-Wheather/KanbanPt-Weather_avnl0n.png "WorkFlow")
